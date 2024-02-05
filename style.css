@@ -1,63 +1,76 @@
-*{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-html,body{
-   height: 100%;
-   width: 100%;
-}
-body{
-    font-family: DRAGON HUNTER;
-    overflow: hidden;
-}
-#main{
+
+html,
+body {
     height: 100%;
     width: 100%;
 }
-.screen{
+
+body {
+    font-family: DRAGON HUNTER;
+    overflow: hidden;
+}
+
+#main {
     height: 100%;
-    width: 100%;background-color: rgb(112, 28, 28);
+    width: 100%;
+}
+
+.screen {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(112, 28, 28);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     transition: all ease-in-out 1s;
 }
-.screen h1{
+
+.screen h1 {
     font-size: 6vw;
     text-transform: uppercase;
     font-family: DRAGON HUNTER;
     color: white;
 }
-.screen button{
+
+.screen button {
     padding: 10px 30px;
     text-transform: uppercase;
     font-weight: 900;
     font-size: 20px;
     color: white;
     font-family: gilroy;
-    border-radius: 10px;margin-top: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
     border: 2px solid white;
     cursor: pointer;
     background-color: rgb(112, 28, 28);
     box-shadow: 10px 10px 20px black;
 
 }
-button:active{
+
+button:active {
     scale: 0.95;
 }
-button:hover{
-    background: linear-gradient(white , pink);
+
+button:hover {
+    background: linear-gradient(white, pink);
     color: black;
 }
-.screen h2{
+
+.screen h2 {
     font-size: 4vw;
     text-transform: uppercase;
     font-family: DRAGON HUNTER;
     color: white;
 }
-.photo #image{
+
+.photo #image {
     height: 150px;
     width: 150px;
     margin-right: 20px;
@@ -67,28 +80,34 @@ button:hover{
     background-color: transparent;
     cursor: grab;
 }
-.photo{
+
+.photo {
     display: flex;
     margin-top: 20px;
 }
-#image img{
+
+#image img {
     height: 100px;
     width: 100px;
     margin-left: 25px;
     margin-top: 20px;
     background: transparent;
 }
-#image:hover{
-    background: linear-gradient(white , pink);
+
+#image:hover {
+    background: linear-gradient(white, pink);
 }
-#image:hover h3{
+
+#image:hover h3 {
     color: black;
 }
-#image h3{
+
+#image h3 {
     color: white;
     margin-left: 50px;
 }
-#nav{
+
+#nav {
     height: 80px;
     width: 100%;
     color: white;
@@ -98,7 +117,8 @@ button:hover{
     padding: 0 30px;
     border-bottom: 1px solid black;
 }
-#playground{
+
+#playground {
     height: 90%;
     width: 100%;
     background-color: rgb(112, 28, 28);
@@ -107,7 +127,8 @@ button:hover{
     justify-content: center;
 
 }
-#playground img{
+
+#playground img {
     height: 100px;
     position: absolute;
 }
